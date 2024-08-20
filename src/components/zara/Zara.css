@@ -1,0 +1,43 @@
+#item1{
+    grid-area: right;
+    transition: 0.5s;
+}
+#item1:hover{
+    height: 805px;
+    width: 705px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#item2{
+    grid-area: top;
+    transition: 0.5s;
+}
+#item2:hover{
+    height: 405px;
+    width: 705px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#item3{
+    grid-area: bottom;
+    transition: 0.5s;
+}
+#item3:hover{
+    height: 405px;
+    width: 705px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.zara{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.zara-items{
+    margin-top: 30px;
+    display: grid;
+    grid-template-areas:
+    'right right  bottom bottom'
+    'right right  bottom bottom'
+    'right right top top'
+    'right right top top';
+    gap: 10px;
+}

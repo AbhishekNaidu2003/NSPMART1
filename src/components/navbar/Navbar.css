@@ -1,0 +1,50 @@
+.Navbar{
+    height: 70px;
+    background-color: black;
+    display: flex;
+}
+.title{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h1{
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.links{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.links a{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    transition: 0.7s;
+}
+.links a:hover{
+    background-color: white;
+    color: black;
+    font-size: large;
+    width: 27%
+}
+.nextLinks{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nextLinks a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+

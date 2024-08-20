@@ -1,0 +1,16 @@
+.categoryitems{
+    text-align: center;
+    width: 10%;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.categoryitems:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    height: 11%;
+    width: 11%;
+    font-size: 18px;
+}
+h4{
+    margin-top: 8px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
